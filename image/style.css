@@ -1,0 +1,114 @@
+body{
+font-family: Arial;
+background:#f5f6fa;
+}
+
+.popup{
+width:900px;
+background:white;
+margin:40px auto;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.15);
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.header h2{
+margin:0;
+}
+
+.close{
+font-size:22px;
+cursor:pointer;
+color:#777;
+}
+
+.search-box{
+margin:15px 0;
+}
+
+.search-box input{
+width:250px;
+padding:10px 15px;
+border-radius:20px;
+border:1px solid #ddd;
+outline:none;
+}
+
+.locations{
+display:flex;
+gap:60px;
+margin-top:20px;
+}
+
+.col{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+label{
+font-size:15px;
+color:#444;
+cursor:pointer;
+}
+
+input[type="checkbox"]{
+margin-right:10px;
+width:18px;
+height:18px;
+}
+
+.bottom{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-top:40px;
+}
+
+.nav{
+display:flex;
+gap:10px;
+}
+
+.circle{
+width:40px;
+height:40px;
+border-radius:50%;
+border:1px solid #ccc;
+background:white;
+font-size:20px;
+cursor:pointer;
+}
+
+.dots{
+display:flex;
+gap:8px;
+}
+
+.dots span{
+width:10px;
+height:10px;
+border-radius:50%;
+background:#ccc;
+display:inline-block;
+}
+
+.dots .active{
+background:#333;
+}
+
+.apply{
+background:#2f5bea;
+color:white;
+border:none;
+padding:10px 25px;
+border-radius:25px;
+font-size:15px;
+cursor:pointer;
+}

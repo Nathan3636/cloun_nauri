@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./mnc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+     <header class="navbar">
+    <div class="logo_strat"><img src="../image/naukri_gnb_logo_finAL.svg" alt=""></div>
+
+    <nav>
+        <a href="#">Jobs</a>
+        <a href="#">Companies</a>
+        <a href="#">Services</a>
+    </nav>
+    <div class="search-container">
+  <input type="text" placeholder="Search jobs here">
+  <div class="search-btn"><i class="fa-solid fa-magnifying-glass"></i>
+    
+  </div>
+</div>
+
+    <div class="nav-right">
+        <a href="../log_in_page.html"><button class="login">Login</button></a>
+        <button class="register">Register</button>
+        <span class="employer">For employers ▾</span>
+    </div>
+</header>
+    <section class="top-companies">
+
+<h2>Top companies hiring now</h2>
+
+<div class="category-container">
+
+<div class="category-card">
+<h3>MNCs</h3>
+<p>2.3K+ Companies <i class="fa-sharp-duotone fa-solid fa-angle-right"></i></p>
+</div>
+
+<div class="category-card">
+<h3>Product</h3>
+<p>1.3K+ Companies <i class="fa-sharp-duotone fa-solid fa-angle-right"></i></p>
+</div>
+
+<div class="category-card">
+<h3>Banking & Finance</h3>
+<p>452 Companies <i class="fa-sharp-duotone fa-solid fa-angle-right"></i></p>
+</div>
+
+<div class="category-card">
+<h3>Hospitality</h3>
+<p>111 Companies <i class="fa-sharp-duotone fa-solid fa-angle-right"></i></p>
+</div>
+
+<div class="category-card">
+<h3>Fintech</h3>
+<p>148 Companies <i class="fa-sharp-duotone fa-solid fa-angle-right"></i></p>
+</div>
+
+<div class="category-card">
+<h3>FMCG & Retail</h3>
+<p>176 companies <i class="fa-sharp-duotone fa-solid fa-angle-right"></i></p>
+</div>
+
+<div class="category-card">
+<h3>Startup</h3>
+<p>802 Companies <i class="fa-sharp-duotone fa-solid fa-angle-right"></i></p>
+</div>
+<div class="category-card">
+<h3>Edtech</h3>
+<p>174 Companies <i class="fa-sharp-duotone fa-solid fa-angle-right"></i></p>
+</div>
+<div class="category-card">
+<h3>Healthcare</h3>
+<p>701 Companies <i class="fa-sharp-duotone fa-solid fa-angle-right"></i></p>
+</div>
+<div class="category-card">
+<h3>Unicorns</h3>
+<p>97 Companies <i class="fa-sharp-duotone fa-solid fa-angle-right"></i></p>
+</div>
+<div class="category-card">
+<h3>Internet</h3>
+<p>249 Companies <i class="fa-sharp-duotone fa-solid fa-angle-right"></i></p>
+</div>
+<div class="category-card">
+<h3>Manufacturing</h3>
+<p>1.1K+ Companies <i class="fa-sharp-duotone fa-solid fa-angle-right"></i></p>
+</div>
+<div class="category-card">
+<h3>Fortune 500</h3>
+<p>158 Companies <i class="fa-sharp-duotone fa-solid fa-angle-right"></i></p>
+</div>
+<div class="category-card">
+<h3>B2C</h3>
+<p>2.5K+ Companies <i class="fa-sharp-duotone fa-solid fa-angle-right"></i></p>
+</div>
+
+</div>
+
+</section>
+
+
+<div class="main-container">
+
+<!-- FILTERS -->
+
+<div class="filters">
+
+<h3>All Filters</h3>
+<div class="company_type">
+
+<h4>Company type</h4>
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-down"></i></div>
+<div class="inner_company">
+<label><input type="checkbox"> Corporate (4898)</label>
+<label><input type="checkbox"> Foreign MNC (1629)</label>
+<label><input type="checkbox"> Startup (805)</label>
+<label><input type="checkbox"> Indian MNC (648)</label>
+<label><input type="checkbox"> others (16)</label>
+<label><input type="checkbox"> Gont/PSU (10)</label>
+<label><input type="checkbox">MNC (3)</label>
+</div>
+</div>
+<div class="company_type">
+
+<h4>Location</h4>
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-down"></i></div>
+<div class="locations">
+    <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+<input type="text" placeholder="Search Location">
+</div>
+<div class="inner_company">
+<label><input type="checkbox"> Bengaluru (3688)</label>
+<label><input type="checkbox"> Delhi / NCR (3553)</label>
+<label><input type="checkbox"> Mumbai (All Areas) (3097)</label>
+<label><input type="checkbox"> Hyderabad (2571)</label>
+<label><input type="checkbox"> Pune (2545)</label>
+<label><input type="checkbox"> Mumbai (2534)</label>
+<label><input type="checkbox"> Chennai (2531)</label>
+<label><input type="checkbox"> New Delhi (1679)</label>
+</div>
+</div>
+</div>
+<div class="company_type">
+
+<h4>Industry</h4>
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-down"></i></div>
+<div class="locations">
+    <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+<input type="text" placeholder="Search Industry">
+</div>
+<div class="inner_company">
+<label><input type="checkbox">IT Services & Consulting(2526)</label>
+<label><input type="checkbox"> Software product(580)</label>
+<label><input type="checkbox"> Recruitment / Staffing(332)</label>
+<label><input type="checkbox"> Industrial Equipment /machinerv(322)</label>
+<label><input type="checkbox"> Education /Training (312)</label>
+<label><input type="checkbox"> Medical Services /Hospital (298)</label>
+<label><input type="checkbox">Engineering & Construction (295)</label>
+</div>
+</div>
+</div>
+<div class="company_type">
+
+<h4>Department</h4>
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-down"></i></div>
+<div class="locations">
+    <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+<input type="text" placeholder="Search Department">
+</div>
+<div class="inner_company">
+<label><input type="checkbox"> Engineering-Software&QA (4404)</label>
+<label><input type="checkbox"> Sales &Business Development (4262)</label>
+<label><input type="checkbox"> Finance & Accountin (2767)</label>
+<label><input type="checkbox"> Customer Success, Service & Operations (2598)</label>
+<label><input type="checkbox"> Human Resoureces (2447)</label>
+<label><input type="checkbox"> Gont/PSU (10)</label>
+<label><input type="checkbox">MNC (3)</label>
+</div>
+</div>
+</div>
+<div class="company_type">
+
+<h4>Experience</h4>
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-down"></i></div>
+<div class="tags_2">
+      <span class="tag_2">Experienced (9373)</span>
+      <span class="tag_2">Entry Level (2667)</span>
+    </div>
+</div>
+<div class="company_type">
+
+<h4>Nature of business</h4>
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-down"></i></div>
+<div class="tags_2">
+      <span class="tag_2">B2B (5559)</span>
+      <span class="tag_2">B2C (2451)</span>
+      <span class="tag_2">SaaS (295)</span>
+      <span class="tag_2">D2C (41)</span>
+      <span class="tag_2">PaaS (18)</span>
+    </div>
+</div>
+<div class="company_type">
+
+<h4>Job posting date</h4>
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-down"></i></div>
+<div class="tags_2">
+      <span class="tag_2">&lt; 7 Days</span>
+      <span class="tag_2">&lt; 15 Days</span>
+    </div>
+</div>
+</div>
+<!-- COMPANY LIST -->
+
+<div class="companies">
+
+<p class="results">Showing 9688 companies</p>
+<div class="companys">
+
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+
+
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+
+
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+
+
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+
+
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+
+
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+<div class="company-card">
+
+<div class="logo"></div>
+
+<div class="company-info">
+<h3>GD Research Center (GDRC)</h3>
+<p>⭐ 3.3 | 1K+ reviews</p>
+
+<div class="tags">
+<span>Foreign MNC</span>
+<span>Analytics / KPO / Research</span>
+</div>
+</div>
+
+<div class="arrow"><i class="fa-duotone fa-solid fa-angle-right"></i></div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+ <footer class="footer_final">
+
+<div class="footer-container">
+
+<!-- Logo + Social -->
+<div class="footer-col logo-col">
+<img src="./image/naukri_gnb_logo_finAL.svg" class="logo_final">
+
+<p class="connect">Connect with us</p>
+
+<div class="social-icons">
+<span><i class="fa-brands fa-square-facebook"></i></span>
+<span><i class="fa-brands fa-instagram"></i></span>
+<span><i class="fa-brands fa-x-twitter"></i></span>
+<span><i class="fa-brands fa-square-linkedin"></i></span>
+</div>
+</div>
+
+<!-- Column 1 -->
+<div class="footer-col">
+<ul>
+<li>About us</li>
+<li>Careers</li>
+<li>Employer home</li>
+<li>Sitemap</li>
+<li>Credits</li>
+</ul>
+</div>
+
+<!-- Column 2 -->
+<div class="footer-col">
+<ul>
+<li>Help center</li>
+<li>Summons/Notices</li>
+<li>Grievances</li>
+<li>Report issue</li>
+</ul>
+</div>
+
+<!-- Column 3 -->
+<div class="footer-col">
+<ul>
+<li>Privacy policy</li>
+<li>Terms & conditions</li>
+<li>Fraud alert</li>
+<li>Trust & safety</li>
+</ul>
+</div>
+
+<!-- App Download -->
+<div class="footer-col app-box">
+
+<h3>Apply on the go</h3>
+<p>Get real-time job updates on our App</p>
+
+<div class="app-buttons">
+<img src="./image/android-app_v1_GOOGLE.png" alt="">
+<img src="./image/ios-app_v1.png" alt="">
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<div class="left">
+<span class="infoedge"><img src="./image/infoedge-logo.svg" alt=""></span>
+<p>All trademarks are the property of their respective owners<br>
+All rights reserved © 2025 Info Edge (India) Ltd.</p>
+</div>
+
+<div class="right">
+<p>Our businesses</p>
+<span>naukrigulf</span>
+<span>shiksha</span>
+<span>iimjobs</span>
+<span>hirist</span>
+</div>
+
+</div>
+
+</footer>
+
+</body>
+</html>
